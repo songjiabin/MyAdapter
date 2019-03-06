@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jxc_bg_gray"
+    android:orientation="vertical">
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:src="@mipmap/bg_print"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:gravity="center_horizontal"
+        android:text="移动设备连接Wi-Fi"
+        android:textColor="@color/jxc_text_main"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text="连接WI-FI时候可更便捷地配置票机，\n通过局域网网络打印，无需留量。"
+        android:textColor="@color/jxc_text_main"
+        android:textSize="16sp"/>
+    <Button
+
+        android:id="@+id/btn_blue_tooth_print"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="45dp"
+        android:background="@color/jxc_main"
+        android:text="连接蓝牙票机"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btn_ip_print"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/jxc_main"
+        android:text="连接IP票机"
+        android:textColor="@android:color/white"
+        android:visibility="gone"/>
+</LinearLayout>

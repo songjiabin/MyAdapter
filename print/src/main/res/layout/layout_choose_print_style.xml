@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jxc_bg_gray"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_wifi_conn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/jxc_main"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="WIFI连接"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/tv_blue_tooth_conn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/jxc_main"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="蓝牙连接"
+        android:textColor="@color/colorWhite"/>
+</LinearLayout>
